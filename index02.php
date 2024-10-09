@@ -23,6 +23,16 @@ if ($user['gender'] === 'NB'){
 }
 
 
+//  esercizio Array Numeri
+
+$numbers = [23, 56, 222, 47, 1, 1113, 687, 37, 45, 29, 48, 33, 458, 3569, 456 ,45, 2548, 675,];
+
+for ($i=0; $i < count($numbers); $i++) { 
+ if ($numbers[$i] % 2 == 0){
+   echo $numbers[$i];
+ }
+}
+
 
 
 
