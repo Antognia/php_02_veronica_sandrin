@@ -35,6 +35,22 @@ for ($i=0; $i < count($numbers); $i++) {
 
 
 
+// Selfwork php6 - Multipli di 3 e 5 
+
+for ($i = 1; $i <= 100; $i++) {
+    if ($i % 3 == 0 && $i % 5 == 0) {
+        echo "HACKADEMY";
+    } elseif ($i % 3 == 0) {
+        echo "PHP";
+    } elseif ($i % 5 == 0) {
+        echo "JAVASCRIPT";
+    } 
+}
+
+
+
+
+
 
 
 
