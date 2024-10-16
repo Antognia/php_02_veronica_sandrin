@@ -23,7 +23,7 @@ if ($user['gender'] === 'NB'){
 }
 
 
-//  esercizio Array Numeri
+//  esercizio Array Numeri - media numeri pari
 
 $numbers = [23, 56, 222, 47, 1, 1113, 687, 37, 45, 29, 48, 33, 458, 3569, 456 ,45, 2548, 675,];
 
