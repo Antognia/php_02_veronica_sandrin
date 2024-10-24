@@ -27,11 +27,17 @@ if ($user['gender'] === 'NB'){
 
 $numbers = [23, 56, 222, 47, 1, 1113, 687, 37, 45, 29, 48, 33, 458, 3569, 456 ,45, 2548, 675,];
 
+$count = 0;
+$tot = 0;
+
 for ($i=0; $i < count($numbers); $i++) { 
  if ($numbers[$i] % 2 == 0){
-   echo $numbers[$i];
+ $tot += $numbers[$i];
+   $count++;
  }
 }
+
+echo $tot/$count;
 
 
 
